@@ -1,5 +1,5 @@
 import socket
-from keyboard1 import type_strc, especialling
+from keyboard1 import type_string
 # --- Configuration ---
 SERVER_HOST = '0.0.0.0'
 SERVER_PORT = 12345
@@ -34,3 +34,4 @@ def start_server():
             print("Server closed.")
 if __name__ == "__main__":
     start_server()
+    input("Press Enter to exit...")  # Keep the server running until Enter is pressed

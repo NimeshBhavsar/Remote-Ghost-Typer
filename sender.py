@@ -66,3 +66,4 @@ with st.form("network_sender_form"):
 
     # Send button with an on_click callback
     st.form_submit_button("🚀 Send Message", on_click=send_and_clear_message)
+input()
